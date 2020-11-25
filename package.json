@@ -8,7 +8,7 @@
     "build": "webpack --mode production",
     "watch": "webpack --mode development --watch",
     "start": "webpack-dev-server --mode development --open",
-    "server": "webpack-dev-server --inline --colors --watch --display-error-details --display-cached  --port 3000 --hot"
+    "server": "webpack-dev-server --inline --colors --watch --display-error-details --display-cached  --port 4100 --hot"
   },
   "author": "",
   "license": "ISC",

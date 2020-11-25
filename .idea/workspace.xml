@@ -14,6 +14,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JsBowerSettings">
     <node-interpreter value="project" />
     <bower-package value="" />
@@ -26,6 +29,7 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1ik27YNtjYHRRvmLmf15FvKVNCU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,8 +52,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\dev\Documents\DEVELOPMENT\JavaScript\JS-Vanila\Projects\webpack-auth(1)\dist" />
+      <recent name="C:\Users\dev\Documents\DEVELOPMENT\JavaScript\JS-Vanila\Projects\webpack-auth(1)\src\pages" />
       <recent name="C:\Users\dev\Documents\DEVELOPMENT\JavaScript\JS-Vanila\Projects\webpack-auth(1)\src" />
+      <recent name="C:\Users\dev\Documents\DEVELOPMENT\JavaScript\JS-Vanila\Projects\webpack-auth(1)\dist" />
     </key>
   </component>
   <component name="RunManager" selected="npm.server">
@@ -96,9 +101,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.server" />
-        <item itemvalue="npm.start" />
-        <item itemvalue="npm.watch" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.watch" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +118,12 @@
       <workItem from="1602437103695" duration="44097000" />
       <workItem from="1602836300813" duration="1952000" />
       <workItem from="1603360710861" duration="3081000" />
-      <workItem from="1604301724269" duration="4563000" />
+      <workItem from="1604301724269" duration="7515000" />
+      <workItem from="1604857509905" duration="12418000" />
+      <workItem from="1604954615153" duration="8590000" />
+      <workItem from="1605183420739" duration="12411000" />
+      <workItem from="1606121890197" duration="1591000" />
+      <workItem from="1606208987244" duration="10177000" />
     </task>
     <servers />
   </component>
@@ -129,26 +139,26 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="3104" y="322" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1602456831513" />
-    <state width="1897" height="280" key="GridCell.Tab.0.bottom" timestamp="1604340532934">
+    <state width="1897" height="249" key="GridCell.Tab.0.bottom" timestamp="1606227552436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="280" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604340532934" />
-    <state width="1897" height="280" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1602538258456" />
-    <state width="1897" height="280" key="GridCell.Tab.0.center" timestamp="1604340532934">
+    <state width="1897" height="249" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606227552436" />
+    <state width="1897" height="249" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606217092883" />
+    <state width="1897" height="249" key="GridCell.Tab.0.center" timestamp="1606227552436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="280" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604340532934" />
-    <state width="1897" height="280" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1602538258455" />
-    <state width="1897" height="280" key="GridCell.Tab.0.left" timestamp="1604340532934">
+    <state width="1897" height="249" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606227552436" />
+    <state width="1897" height="249" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606217092882" />
+    <state width="1897" height="249" key="GridCell.Tab.0.left" timestamp="1606227552436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="280" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604340532934" />
-    <state width="1897" height="280" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1602538258455" />
-    <state width="1897" height="280" key="GridCell.Tab.0.right" timestamp="1604340532934">
+    <state width="1897" height="249" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606227552436" />
+    <state width="1897" height="249" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606217092882" />
+    <state width="1897" height="249" key="GridCell.Tab.0.right" timestamp="1606227552436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="280" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604340532934" />
-    <state width="1897" height="280" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1602538258456" />
+    <state width="1897" height="249" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606227552436" />
+    <state width="1897" height="249" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606217092882" />
     <state width="933" height="346" key="GridCell.Tab.1.bottom" timestamp="1602460037789">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -201,9 +211,14 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2313" y="265" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1602439174931" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602441228420">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="478" y="112" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605040283264">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="478" y="112" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605040283264" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606210703387">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606210703387" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1602441228420" />
   </component>
 </project>
