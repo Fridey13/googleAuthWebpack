@@ -14,24 +14,44 @@ buttonEvent('login', () => {
 })
 
 buttonEvent('login-dev', () => {
-    new Request()
-        .axiosPost({
-        email: inputText('email'),
-        password: inputText('password')
-    }, inputText('address'))
+    let address = inputText('address')
+    let method = getComponent('select')
+    let callback = GetRequestMethod(method)
+    if(method === 'Post'){
+        let credentials = {
+            email: inputText('email'),
+            password: inputText('password')
+        }
+        callback(credentials,address)
+    }
+    else{
+        callback(address)
+    }
 })
 
 buttonEvent('button-logout', () => {
     new Request('/auth/logout').axiosDelete();
 })
 
-buttonEvent('signin-byAddress', () => {
-    new Request(inputText('address')).axiosPost({email: "test@test.com", password:"string"})
-})
-
 
 //==========================================================================================//
 //==========================================================================================//
+
+function GetRequestMethod(method){
+    if(method === 'GET') return new Request().axiosGet;
+    if(method === 'POST') return new Request().axiosPost;
+    if(method === 'DELETE') return new Request().axiosDelete;
+}
+
+function getComponent(id){
+    let value = document.getElementById(id).value
+    if(value === undefined || value === null || value === ''){
+        console.log('Error');
+        return '';
+    }
+    return value;
+}
+
 
 //Get input text by input class name
 function inputText(className){

@@ -19,13 +19,19 @@
         <button class="button-logout">Logout</button>
     </div>
     <div class="signin-byAddress" style="display: inline-block">
-        <input type="text" class="address" value="https://dev-ask.globalcloudteam.com/asp-auth-api/">
-        <label for="emails"></label>
+        <select name="Select" id="select">
+            <option value="GET">GET</option>
+            <option value="POST">POST</option>
+            <option value="DELETE">DELETE</option>
+        </select>
+        <input type="text" class="address" value="https://dev-ask.globalcloudteam.com/asp-admin-backend/agent/me">
         <input type="text" id="emails" class="email" value="test@test.com">
-        <label for="passwords"></label>
         <input type="text" id="passwords" class="password" value="string">
         <button class="login-dev">Sign in </button>
         <button class="logout-dev">Logout</button>
+    </div>
+    <div style="display: inline-block">
+        <p style="display: flex" id="text"></p>
     </div>
 </div>
 

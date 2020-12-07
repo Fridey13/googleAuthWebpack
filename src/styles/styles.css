@@ -12,7 +12,7 @@ h1{
 
 .auth{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 4fr 4fr 1fr;
 }
 
 .link{
