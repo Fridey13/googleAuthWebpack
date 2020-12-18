@@ -10,12 +10,13 @@ export default class Request {
         let axios = require('axios')
         let config = {
             headers: {
-                Authorization: 'Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJwcm92aWRlciI6ImxvY2FsIiwicHJvdmlkZXJJZCI6IjJiZDZlMzkzLTQwYTMtNGViMy05M2JlLTNlMTUwMjRkZDRmOCIsImV4cCI6MTYwNzM3OTY2MywiaXNzIjoiZ2xvYmFsY2xvdWR0ZWFtIiwiYXVkIjoiZ2xvYmFsY2xvdWR0ZWFtIn0.7S6V8A8YYzEXJJ65w9uP2OsTDEPwQ5vE1MinVNx95j0'
+                Authorization: 'Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJwcm92aWRlciI6ImxvY2FsIiwicHJvdmlkZXJJZCI6IjJiZDZlMzkzLTQwYTMtNGViMy05M2JlLTNlMTUwMjRkZDRmOCIsImV4cCI6MTYwODMxODc2MCwiaXNzIjoiZ2xvYmFsY2xvdWR0ZWFtIiwiYXVkIjoiZ2xvYmFsY2xvdWR0ZWFtIn0.RVQpA4gGkc75U61ppL1i6b-03he57e3VL0OpigFPsOs'
             }
         }
-        console.log('axios is', axios)
-        console.log('Get path is ', path)
-        axios.get(path, config).then(resp => {
+
+    console.log('axios is', axios)
+    console.log('Get path is ', path)
+    axios.get(path + '?key=_2dl2jw8u5_y5khd5ujk', config).then(resp => {
             console.log('data:',resp.data)
             let data = document.getElementById('text')
             data.innerText = JSON.stringify(resp.data)
